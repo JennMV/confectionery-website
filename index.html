@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Coco's Chocolatiers</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
+
+</head>
+<body>
+
+  <header role="banner" class="masthead grid grid-middle">
+      <div class="logo-wrapper unit [ xs-1 s-1-3 m-1-3 l-1-3 ] text-center">
+        <a class="ib text-center gutter pad-t-1-2 pad-b-1-2">
+          <h1 class="logo yotta push-0">Coco's Chocolateiers</h1>
+        </a>
+      </div>
+    <div class="nav-wrapper unit [ xs-1 s-2-3 m-2-3 l-2-3 ]">
+      <input type="checkbox" class="nav-check absolute" id="nav-check">
+      <label class="nav-label ir label-block absolute pin-tl" for="nav-check">Navigate</label>
+      <nav role="navigation" class="nav" id="nav">
+        <ul class="list-group push-0">
+          <li><a class="link-box island" href="#products">Products</a></li>
+          <li><a class="link-box island" href="#location">Location</a></li>
+          <li><a class="link-box island" href="#catoring">Catoring</a></li>
+          <li><a class="link-box island" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="embed banner heading-banner unit xs-1 s-1 m-1 l-1 xl-1">
+         <h2 class="embed-item max-length text-center gutter-quarter">SPEND $50 IN STORE<br>AND GET A $15 GIFT CARD</h2>
+    </div>
+
+    <div class="banner relative push">
+      <div>
+        <img src="images/banner.jpg" alt=""></img>
+      </div>
+      <div class="banner-content absolute pin-tl island">
+        <h1 class="yotta"></h1>
+      </div>
+    </div>
+
+    <main>
+      <ul class="icon-group">
+          <li class="icon-group-item">
+            <div class="icon-group-image">
+              <svg class="icon icon-bag"><use xlink:href="#icon-bag"></use></svg>
+            </div>
+            <div class="icon-group-body">
+              <strong class="icon-group-title">Holiday Truffles</strong>
+              <div class="btn-small">
+                <a href="#">Buy Now</a>
+              </div>
+            </div>
+          </li>
+
+
+        <li class="card">
+          <div class="card-img">
+            <img src="images/placeholder-circle.svg" alt="placeholder">
+          </div>
+          <div class="card-body">
+            <h2>Assorted Bakes Goods</h2>
+            <div class="btn-small">
+              <a href="#">Read now</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="card">
+          <div class="card-img">
+            <img src="images/placeholder-circle.svg" alt="placeholder">
+          </div>
+          <div class="card-body">
+            <h2>Gifts $50 & Under</h2>
+            <div class="btn-small">
+              <a href="#">Read now</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <section>
+        <h2 class="yotta">Location</h2>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2 l-1-3">
+            <div class="padleft-map unit xs-1 s-1 m-1-2 l-1-3">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.1596104805894!2d-75.69373998444382!3d45.426283779100416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1b7405c49f6e02ff!2sChapters!5e0!3m2!1sen!2sca!4v1481081935226" width="100%" framborder="0" style="border:0" allowfullscreen>...</iframe>
+            </div>
+            <div>
+              <p>Come by and see our mouth watering selection for yourself!</p>
+            </div>
+            <table class="unit xs-1 s-1 m-1-2 l-1-2">
+              <thead>
+                <tr>
+                  <th>Hours</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th>Monday - Thursday:</th>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th>Friday - Saturday:</th>
+                  <td></td>
+                </tr>
+                <tr>
+                  <th>Sunday:</th>
+                  <td></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="">
+        <div class="">
+          <h2>Request a Catorer</h2>
+          <form class="grid">
+            <div class="unit xs-1 s-1 m-1 l-1">
+              <label for="name">Client Name</label>
+              <input id="name" name="name">
+            </div>
+            <div class="unit xs-1 s-1 m-1-1 l-1-1">
+              <label for="phonenumber">Phone Number</label>
+              <input type="tel">
+            </div>
+            <div class="unit xs- s- m- l-">
+              <label for="email">Email Address</label>
+              <input id="email" type="email" name="name" placeholder="me@me.com">
+            </div>
+            <div class="unit xs- s- m- l-">
+              <label for="date">Date of Event</label>
+              <input type="date" id="date" name="date">
+            </div>
+            <div class="unit xs- s- m- l-">
+              <label for="details">Event Details</label>
+              <textarea id="details" name="message"></textarea>
+            </div>
+            <div class="unit xs- s- m- l-">
+              <button class="btn btn-light" type="submit">Send Request</button>
+            </div>
+          </form>
+        </div>
+      </section>
+  </main>
+  
+  <footer class="text-center micro">
+    <p>2016 Coco's Chocolatiers©</p>
+  </footer>
+
+</body>
+</html>
