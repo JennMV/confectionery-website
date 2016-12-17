@@ -49,12 +49,30 @@ h1 {
   background-position: 0 -156px;
 }
 
-@media only screen and (min-width: 46em) {}
+@media only screen and (min-width: 35em) {
 
   nav li {
     display: inline-block;
   }
-  
+
+  .nav-label , .nav-check {
+    display: none;
+    background: none;
+  }
+
+  .nav {
+    display: inline-block;
+  }
+
+  .logo-wrapper {
+    text-align: left;
+  }
+
+  .nav-wrapper {
+    text-align: left;
+  }
+
+}
 
 /*----------=Banner-------------*/
 
