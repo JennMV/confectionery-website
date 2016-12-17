@@ -15,8 +15,18 @@ html {
   background-color: #612b10;
 }
 
-h1, h2{
+h1 {
   font-family: Molle, sans-serif;
+  color: #fff;
+}
+
+h2{
+  font-family: Molle, sans-serif;
+  color: #612b10;
+}
+
+nav ul li a {
+  color: #fff;
 }
 
 .nav {
@@ -48,7 +58,7 @@ h1, h2{
 }
 
 .nav-check:focus ~ .nav-label {
-  outline: 2px solid #;                 <-------------- add colour
+  outline: none;                 <-------------- add colour
 }
 
 .nav-check:checked:hover ~ .nav-label {
@@ -99,11 +109,12 @@ h1, h2{
 
 .embed-item {
   position: absolute;
-  transform: translateX(-50%);
+  transform: translateX(-30%);
   left: 50%;
-  color: white;
+  color: #9C9C9C;
   display: inline;
   top: 40%;
+  padding-right: 1em;
 }
 
 
@@ -118,14 +129,14 @@ h1, h2{
 }
 
 .card-img {
-  max-width: 33.33%;
+  max-width: 80%;
   padding-left: 3em;
 }
 
 @media only screen and (min-width: 35em) {
 
   .card {
-    width: 32%;
+    width: 33%;
   }
 }
 
@@ -172,3 +183,8 @@ h1, h2{
 
 
 /*----------=Footer-------------*/
+
+footer {
+  background-color: #612b10;
+  color: #fff;
+}
