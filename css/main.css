@@ -1,3 +1,65 @@
+/*----------=HTML-------------*/
+
+html {
+  font-family: sans-serif;
+}
+
+
+
+
+
+/*----------=Header-------------*/
+
 h1 {
   font-family: Molle, sans-serif;
 }
+
+.nav {
+  display: none;
+}
+
+.nav-check:checked ~ .nav {
+  display:block;
+}
+
+.nav-check {
+  top: -2em;
+}
+
+.nav-label {
+  height: 52px;
+  width: 52px;
+
+  background: url("../images/icons/nav-icon.svg") 0 0 / 52px auto;
+
+/*----------=Banner-------------*/
+
+.heading-banner {
+  background-image: url("../images/placeholder-golden.svg");
+}
+
+
+
+
+
+
+/*----------=Icon Cards-------------*/
+
+
+
+
+
+
+/*----------=Location/Hours-------------*/
+
+
+
+
+
+/*----------=Form-------------*/
+
+
+
+
+
+/*----------=Footer-------------*/
