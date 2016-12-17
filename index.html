@@ -15,13 +15,13 @@
 
   <header role="banner" class="masthead grid grid-middle">
       <div class="logo-wrapper unit xs-1 s-1-3 m-1-3 l-1-3 text-center">
-        <a class="ib text-center gutter pad-t-1-2 pad-b-1-2">
+        <a class="inline-block text-center gutter pad-t-1-2 pad-b-1-2">
           <h1 class="logo yotta push-0">Coco's Chocolateiers</h1>
         </a>
       </div>
     <div class="nav-wrapper unit xs-1 s-2-3 m-2-3 l-2-3">
       <input type="checkbox" class="nav-check absolute" id="nav-check">
-      <label class="nav-label ir label-block absolute pin-tl" for="nav-check">Navigate</label>
+      <label class="nav-label image-replacement label-block absolute pin-tl" for="nav-check">Navigate</label>
       <nav role="navigation" class="nav" id="nav">
         <ul class="list-group push-0">
           <li><a class="link-box island" href="#products">Products</a></li>
@@ -38,40 +38,41 @@
       <h2 class="embed-item max-length text-center gutter-quarter">Taste the richness of chocolate<br>made from 100% cocoa</h2>
     </div>
 
-    <div class="unit sx- s- m- l-">
-      <ul class="icon-group">
-        <li class="">
-          <div class="">
-            <i class="list-group">
-              <svg><use xlink:href="images/all-icon.svg#icon-icon-bag"/></svg>
-            </i>
-            <span class="milli icon-label">Holiday Truffles</span>
+    <div class="grid">
+      <ul class=" unit sx-1 s-1 m-1 l-1">
+
+        <li class="card sx-1 s-1 m-1-3 l-1-3">
+          <div class="card-img">
+            <img src="images/bag.svg" alt="">
+          </div>
+          <div class="card-body">
+            <h3>Holiday Truffles</h3>
             <div class="btn-small">
-              <a href="#">Buy Now</a>
+              <a href="#">Buy now</a>
             </div>
           </div>
         </li>
 
-        <li class="icon-group-item">
-          <div class="icon-group-image">
-            <svg class="icon icon-bag"><use xlink:href="#icon-cookie"></use></svg>
+        <li class="card sx-1 s-1 m-1-3 l-1-3">
+          <div class="card-img">
+            <img src="images/cookie.svg" alt="">
           </div>
-          <div class="icon-group-body">
-            <strong class="icon-group-title">Assorted Baked Goods</strong>
+          <div class="card-body">
+            <h3>Assorted Bakes Goods</h3>
             <div class="btn-small">
-              <a href="#">Buy Now</a>
+              <a href="#">Buy now</a>
             </div>
           </div>
         </li>
 
-        <li class="icon-group-item">
-          <div class="icon-group-image">
-            <svg class="icon icon-bag"><use xlink:href="#icon-cupcake-sprinkles"></use></svg>
+        <li class="card sx-1 s-1 m-1-3 l-1-3">
+          <div class="card-img">
+            <img src="images/cupcake-sprinkles.svg" alt="">
           </div>
-          <div class="icon-group-body">
-            <strong class="icon-group-title">Gifts $50 & Under</strong>
+          <div class="card-body">
+            <h3>Gifts $50 & Under</h3>
             <div class="btn-small">
-              <a href="#">Buy Now</a>
+              <a href="#">Buy now</a>
             </div>
           </div>
         </li>
@@ -85,16 +86,16 @@
           <div class="padleft-map unit xs-1 s-1 m-1-2 l-1-2">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.1596104805894!2d-75.69373998444382!3d45.426283779100416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1b7405c49f6e02ff!2sChapters!5e0!3m2!1sen!2sca!4v1481081935226" width="100%" framborder="0" style="border:0" allowfullscreen>...</iframe>
           </div>
-          <div>
+          <div class="unit xs-1 s-1 m-1 l-1 text-center">
             <p>Come by and see our mouth watering selection for yourself!</p>
           </div>
-          <table class="unit xs-1 s-1 m-1-2 l-1-2">
+          <table class="table unit xs-1 s-1 m-1-2 l-1-2">
             <thead>
               <tr>
-                <th>Hours</th>
+                <th colspan="2" class="mega">Hours</th>
               </tr>
             </thead>
-            <tbody>
+            <tbody class="milli">
               <tr>
                 <th>Monday - Thursday:</th>
                 <td>9:00AM - 7:00PM</td>
