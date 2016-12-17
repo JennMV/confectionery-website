@@ -1,14 +1,10 @@
-/*----------=HTML-------------*/
+/* ----------=HTML------------- */
 
 html {
   font-family: sans-serif;
 }
 
-
-
-
-
-/*----------=Header-------------*/
+/* ----------=Header------------- */
 
 .masthead {
   color: #fff;
@@ -20,13 +16,17 @@ h1 {
   color: #fff;
 }
 
-h2{
+h2 {
   font-family: Molle, sans-serif;
   color: #612b10;
 }
 
-nav ul li a {
+ul li a {
   color: #fff;
+}
+
+a:hover {
+  color: #ccc;
 }
 
 .nav {
@@ -35,7 +35,7 @@ nav ul li a {
 }
 
 .nav-check:checked ~ .nav {
-  display:block;
+  display: block;
 }
 
 .nav-check {
@@ -46,7 +46,6 @@ nav ul li a {
   height: 52px;
   width: 52px;
   background: url("../images/icons/nav-icon.svg") 0 0 / 52px auto;
-  color: #;                             <-------------- add colour
 }
 
 .nav-check:hover ~ .nav-label {
@@ -58,7 +57,7 @@ nav ul li a {
 }
 
 .nav-check:focus ~ .nav-label {
-  outline: none;                 <-------------- add colour
+  outline: none;                 /* <-------------- add colour */
 }
 
 .nav-check:checked:hover ~ .nav-label {
@@ -71,7 +70,7 @@ nav ul li a {
     display: inline-block;
   }
 
-  .nav-label , .nav-check {
+  .nav-label, .nav-check {
     display: none;
     background: none;
   }
@@ -90,7 +89,7 @@ nav ul li a {
 
 }
 
-/*----------=Banner-------------*/
+/* ----------=Banner------------- */
 
 .heading-banner {
   background-image: url("../images/banner.jpg");
@@ -111,17 +110,13 @@ nav ul li a {
   position: absolute;
   transform: translateX(-30%);
   left: 50%;
-  color: #9C9C9C;
+  color: #9c9c9c;
   display: inline;
   top: 40%;
   padding-right: 1em;
 }
 
-
-
-
-
-/*----------=Icon Cards-------------*/
+/* ----------=Icon Cards------------- */
 
 .card {
   width: 100%;
@@ -140,16 +135,14 @@ nav ul li a {
   }
 }
 
-
-/*----------=Second Photo-------------*/
+/* ----------=Second Photo------------- */
 
 .img-flex {
   display: block;
   width: 100%;
 }
 
-/*----------=Location/Hours-------------*/
-
+/* ----------=Location/Hours------------- */
 
 @media only screen and (min-width: 35em) {
 
@@ -165,9 +158,7 @@ nav ul li a {
   }
 }
 
-
-
-/*----------=Form-------------*/
+/* ----------=Form------------- */
 
 @media only screen and (min-width: 35em) {
 
@@ -180,9 +171,7 @@ nav ul li a {
   }
 }
 
-
-
-/*----------=Footer-------------*/
+/* ----------=Footer------------- */
 
 footer {
   background-color: #612b10;
