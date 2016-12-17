@@ -106,10 +106,19 @@ h1, h2{
 
 /*----------=Icon Cards-------------*/
 
+.card-img {
+  max-width: 25.99%;
+}
 
 
 
 
+/*----------=Location/Hours-------------*/
+
+.img-flex {
+  display: block;
+  width: 100%;
+}
 
 /*----------=Location/Hours-------------*/
 
@@ -122,8 +131,9 @@ h1, h2{
   }
 
   .table {
-    float: left;
+    float: right;
     margin: 15px;
+    width: 40.99%;
   }
 }
 
@@ -131,7 +141,16 @@ h1, h2{
 
 /*----------=Form-------------*/
 
+@media only screen and (min-width: 35em) {
 
+  .phone {
+    padding-right: .5em;
+  }
+
+  .date {
+    padding-left: .5em;
+  }
+}
 
 
 

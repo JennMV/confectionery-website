@@ -35,7 +35,7 @@
 
   <main role="main" class="">
     <div class="embed banner heading-banner unit xs-1 s-1 m-1 l-1 xl-1">
-      <h2 class="embed-item max-length text-center gutter-quarter">Taste the richness of chocolate<br>made from 100% cocoa</h2>
+      <p class="embed-item max-length text-center gutter-quarter italic">Taste the richness of chocolate<br>made from 100% cocoa</p>
     </div>
 
     <div class="grid">
@@ -79,34 +79,39 @@
       </ul>
     </div>
 
-    <section>
+    <div>
+       <img class="img-flex push" src="images/popcorn.jpg" alt="" aria-describedat="#truffles">
+    </div>
+
+    <section class="island">
       <h2 class="yotta">Location</h2>
       <div class="grid">
         <div class="unit xs-1 s-1 m-1 l-1">
-          <div class="padleft-map unit xs-1 s-1 m-1-2 l-1-2">
+          <div class="unit xs-1 s-1 m-1 l-1 text-center">
+            <p class="push-0">Come by and see our mouth watering selection for yourself!
+            <p class="milli">1000 Elgin St. Ottawa, ON in the downtown area</p>
+          </div>
+          <div class="padleft-map unit xs-1 s-1 m-1-2 l-1-2 gutter">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.1596104805894!2d-75.69373998444382!3d45.426283779100416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1b7405c49f6e02ff!2sChapters!5e0!3m2!1sen!2sca!4v1481081935226" width="100%" framborder="0" style="border:0" allowfullscreen>...</iframe>
           </div>
-          <div class="unit xs-1 s-1 m-1 l-1 text-center">
-            <p>Come by and see our mouth watering selection for yourself!</p>
-          </div>
-          <table class="table unit xs-1 s-1 m-1-2 l-1-2">
+          <table class="table unit xs-1 s-1 m-1-2 l-1-2 gutter">
             <thead>
               <tr>
                 <th colspan="2" class="mega">Hours</th>
               </tr>
             </thead>
-            <tbody class="milli">
+            <tbody>
               <tr>
-                <th>Monday - Thursday:</th>
-                <td>9:00AM - 7:00PM</td>
+                <th class="milli">Monday-Thursday:</th>
+                <td class="micro">9:00AM-7:00PM</td>
               </tr>
               <tr>
-                <th>Friday - Saturday:</th>
-                <td>10:00AM - 6:00PM</td>
+                <th class="milli">Friday-Saturday:</th>
+                <td class="micro">10:00AM-6:00PM</td>
               </tr>
               <tr>
-                <th>Sunday:</th>
-                <td>10:00AM - 4:00PM</td>
+                <th class="milli">Sunday:</th>
+                <td class="micro">10:00AM-4:00PM</td>
               </tr>
             </tbody>
           </table>
@@ -115,7 +120,7 @@
     </section>
 
 
-    <div class="form">
+    <div class="form gutter push">
       <div class="max-length">
         <h2 class="push">Request a Catorer</h2>
         <form class="grid push" method="POST" action="https://formspree.io/mill0856@algonquinlive.com">
@@ -127,11 +132,11 @@
             <label for="email">Email Address</label>
             <input id="email" type="email" name="name" placeholder="youremail@you.com">
           </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2 phone">
             <label for="phonenumber">Phone Number</label>
             <input type="tel">
           </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 push-1-2 date">
             <label for="date">Date of Event</label>
             <input type="date" id="date" name="date">
           </div>
