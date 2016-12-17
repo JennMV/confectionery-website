@@ -30,8 +30,31 @@ h1 {
   height: 52px;
   width: 52px;
   background: url("../images/icons/nav-icon.svg") 0 0 / 52px auto;
-  color: #;
+  color: #;                             <-------------- add colour
 }
+
+.nav-check:hover ~ .nav-label {
+  background-position: 0 -52px;
+}
+
+.nav-check:checked ~ .nav-label {
+  background-position: 0 -104px;
+}
+
+.nav-check:focus ~ .nav-label {
+  outline: 2px solid #;                 <-------------- add colour
+}
+
+.nav-check:checked:hover ~ .nav-label {
+  background-position: 0 -156px;
+}
+
+@media only screen and (min-width: 46em) {}
+
+  nav li {
+    display: inline-block;
+  }
+  
 
 /*----------=Banner-------------*/
 
