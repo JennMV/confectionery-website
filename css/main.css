@@ -43,9 +43,11 @@ a:hover {
 }
 
 .nav-label {
-  height: 52px;
-  width: 52px;
-  background: url("../images/icons/nav-icon.svg") 0 0 / 52px auto;
+  height: 50px;
+  width: 50px;
+  background: url("../images/nav-icon.svg") 0 0 / 52px auto;
+  margin-left: .5em;
+  margin-top: .5em;
 }
 
 .nav-check:hover ~ .nav-label {
