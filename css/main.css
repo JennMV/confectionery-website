@@ -62,7 +62,7 @@ a:hover {
 }
 
 .nav-check:focus ~ .nav-label {
-  outline: none;                 /* <-------------- add colour */
+  outline: none;
 }
 
 .nav-check:checked:hover ~ .nav-label {
@@ -89,7 +89,7 @@ a:hover {
   }
 
   .nav-wrapper {
-    text-align: left;
+    text-align: right;
   }
 
 }
@@ -131,12 +131,13 @@ a:hover {
 .card-img {
   max-width: 80%;
   padding-left: 3em;
+  list-style-type: none;
 }
 
 @media only screen and (min-width: 35em) {
 
   .card {
-    width: 33%;
+    width: 30%;
   }
 }
 
